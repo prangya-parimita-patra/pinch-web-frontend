@@ -1,0 +1,47 @@
+
+.textSecondary{
+    color: #0B7BD6;
+
+}
+.termsOfUse {
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  flex-direction: column;
+  width: 80%;
+  margin: 3rem auto;
+}
+.termsofUsTitle {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+.termsUpdate {
+  font-family: var(--font-content);
+  width: 100%;
+  text-align: right;
+}
+.termspara{
+    margin-top:1.2rem;
+    font-family: var(--font-content);
+    font-size: 1.2em;
+}
+
+
+.titlemain{
+    font-size: 30px;
+  font-family: var(--font-heading);
+margin: 3% auto;
+transition: all 0.5s ease-in-out;
+}
+.serviceTitle{
+  font-size: 2rem;
+  font-family: var(--font-content);
+  margin:3% auto;
+  color: var(--color-secondary)
+}
+

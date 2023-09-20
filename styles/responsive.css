@@ -1,0 +1,618 @@
+@media (max-width: 700px) {
+  /* Utils  */
+
+  .text-2xl {
+    font-size: 28px;
+  }
+
+  .text-xl {
+    font-size: 20px;
+  }
+
+  .text-lg {
+    font-size: 18px;
+  }
+
+  .text-md {
+    font-size: 14px;
+  }
+  .text-sm {
+    font-size: 16px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .btn {
+    padding: auto;
+    font-size: 3em;
+  }
+  /* utils end */
+
+  body {
+    width: 100vw;
+  }
+
+  .modal-window {
+    width: 70%;
+    height: 25%;
+  }
+  .modal-logo {
+    width: 80%;
+    margin-left: -4%;
+  }
+  .modal-Welcome {
+    font-size: 4em;
+  }
+  .modal-Thanks {
+    font-size: 2em;
+  }
+  .modal-subText {
+    font-size: 2em;
+  }
+  .modal-close{
+    top: 42%;
+    left: 75%;  
+    font-size: 3rem;
+    }
+    .footerBrand{
+        margin: 5% 10%;
+        font-size: 4rem;
+    }
+  .brandName {
+    width: 30%;
+    margin: 5% 5%;
+  }
+
+  /* Hero Section */
+  .heroSection {
+    flex-direction: column;
+    width: 90%;
+    margin: -7% 0 0 0;
+  }
+  .heroTextMain {
+    width: 80%;
+  }
+  .heroText_Section {
+    width: 100%;
+  }
+  .heroText_Section .heroText_one span {
+    /* content: " wealth,"; */
+    font-size: 1.8em;
+    color: var(--color-secondary);
+  }
+
+  .heroText_Section .heroText_two span {
+    /* content: " spend"; */
+    font-size: 1.8em;
+    color: var(--color-secondary);
+  }
+  .heroBaseInput_Section .ErrorMsg{
+    font-size:3em;
+   
+  }
+  .illustrationHero_Section {
+    margin: 5% auto;
+    width: 60%;
+    height: 80%;
+  }
+  .heroText_Section .heroText_one,
+  .heroText_Section .heroText_two {
+    font-size: 5rem;
+  }
+  .illustrationHero_Section::after{
+      display: inline-block;
+      top: 5.5%;
+      right: -18%;
+      height: 1350px;
+      width: 75%;
+  }
+  .heroText_Section .heroText_two {
+    margin-left: 25%;
+  }
+  .heroBaseInput_Section {
+    margin: 10% auto;
+    width: auto;
+  }
+  .heroBaseInput_note {
+    margin: 5% auto;
+    width: 100%;
+  }
+
+  .heroBaseInput_note .note {
+    font-size: 3em;
+    line-height:1.5em;
+  }
+  .heroBaseInput_Section .whatsApp_data {
+    margin: auto;
+    padding: auto;
+    font-size: 3em;
+    padding: auto;
+  }
+  .heroBaseInput_form {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .countMe {
+    margin: auto;
+    width: 30%;
+    padding: 1em;
+  }
+  /* hero Section ends */
+
+  /* section 1 */
+  .SectionOne {
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .Section1_1 {
+    width: 100%;
+    margin: auto;
+  }
+  .title1 {
+    width: 100%;
+    font-size: 4em;
+    margin-left: 10%;
+  }
+  .pinchName1 {
+    font-size: 3em;
+  }
+
+  .whatPinchTitle {
+    width: 100%;
+    font-size: 4.5em;
+    line-height: 1.5em;
+  }
+  .section1Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+    width: 90%;
+  }
+  .whatPinchText {
+    margin: 5% auto;
+    width: 100%;
+    font-size: 4em;
+    line-height: 1.2em;
+  }
+
+  .completeSlider1 {
+    width: 80%;
+  }
+  .slider1 {
+    padding: 15%;
+  }
+  .sliderSectionOne {
+    width: 250vw;
+  }
+  .sliderTitle {
+    width: 100%;
+    font-size: 4em;
+  }
+  .sliderInner {
+    width: 100%;
+  }
+  .sliderData {
+    width: 100%;
+    font-size: 3em;
+    line-height: 1em;
+  }
+  /* section 1 ends */
+
+  /* section 2 */
+  .sectionTwo {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .SectionTwo .slick-dots li button:before {
+    top: -10rem;
+    left: -20rem;
+  }
+  .title2 {
+    margin: 5%;
+    font-size: 5em;
+  }
+  .frames {
+    flex-direction: column;
+  }
+  .framesData {
+    text-align: left;
+    width: 92%;
+    height: 180px;
+  }
+  .framesData small {
+    display: block;
+    position: absolute;
+    top: 250%;
+    font-family: var(--font-content);
+    color: var(--color-secondary);
+    font-size: 2em;
+  }
+  .frameNumber {
+    text-align: left;
+    font-size: 7em;
+    width: 100%;
+  }
+  .frameText {
+    font-size: 4em;
+    line-height: 1.2em;
+  }
+  .frameImage {
+    margin: 20% 0;
+    width: 60%;
+  }
+
+  /* .frameImage .frameImageData {
+    height: 100%;
+  } */
+  .backgroundShape {
+    display: none;
+  }
+  /* Section 2 ends */
+
+  /* section 3 */
+  .sectionThreedes {
+    height: 0;
+
+    display: none;
+  }
+  /* WhY section */
+  .WhyPinch {
+    color: var(--color-primary);
+    width: 85%;
+    margin: 5% auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    visibility: visible;
+    height: auto;
+  }
+  .titleWhy {
+    color: var(--color-primary);
+    font-size: 4em;
+    font-family: var(--font-content);
+    width: 100%;
+  }
+
+  .titleWhy::after {
+    content: " pinch?";
+    font-size: 3em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: var(--color-secondary);
+  }
+  .whycardGroup {
+    width: 100%;
+    margin: 8% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .whycard {
+    margin: 5% 0;
+    background: #F2F9FF;
+
+    padding: 5em;
+    border-radius: 2.2em;
+    position: relative;
+    /* height: auto; */
+  }
+  .whycardNum {
+    font-size: 4em;
+    font-family: var(--font-special);
+    color: #FFFFFF;
+    background-color: var(--color-secondary);
+    width: fit-content;
+    padding: 0.5em;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: -5%;
+  }
+  .whycardTitle {
+    font-family: var(--font-content);
+    color: var(--color-secondary);
+    font-size: 4em;
+  }
+
+  .whycardText {
+    font-family: var(--font-content);
+    font-size: 3em;
+  }
+  /* Why Section ends */
+
+  /* section 3 ends */
+
+  /* Section 5  */
+  .offeringGroup .offering_image{
+      position: absolute;
+      top: 35%;
+      left: 30%;
+      height: 400px;
+      width: 400px;
+      max-width: 400px;
+  }
+  
+  .offerings {
+    margin: 0;
+    font-size: 7em;
+  }
+  .offeringGroup {
+    align-items: center;
+    padding: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .offeringCard {
+    margin: 10% 0;
+    width: 260vw;
+
+    height: 1000px;
+    border-radius: 1rem;
+    margin-left: 0;
+  }
+
+  .offeringCardRotated  {
+    margin: 10% 0;
+    width: 260vw;
+    height: 1000px;
+    border-radius: 1rem;
+    margin-left: 0;
+  }
+
+  .front,
+  .back {
+    padding: 8%;
+    line-height: 4em;
+    width:90%;
+    margin-left:-5%;
+   
+    /* width: inherit; */
+  }
+.front, .back{
+   display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    /* box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.38); */
+}
+.cardStatus{
+    width: 500px;
+    height: 10px;
+    /* background-color: blue; */
+}
+  .offeringTitle {
+    font-size: 5rem;
+  }
+  .offeringSubTitle {
+    font-size: 3.5em;
+    width: 90%;
+  }
+  .offeringIcon {
+    width: 50%;
+    height: 80%;
+  }
+  .offeringLink {
+    font-size: 3em;
+  }
+  .offeringArrow {
+    width: 10%;
+  }
+  .status {
+    margin-top: 10%;
+    font-size: 3em;
+    /* background-color: aquamarine; */
+  }
+  /* Section 5 ENDS */
+
+  /* Section 7 */
+  .sectionSeven {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .Section7_1 {
+    margin: auto 4%;
+  }
+  .faq {
+    padding: 5em;
+    width: 85%;
+  }
+  .faqAnswer{
+    font-size:1.5em;
+  }
+  .faqTitle {
+    font-size: 4.5em;
+  }
+  .faqText {
+    font-size: 2.5em;
+    line-height: 1.5em;
+  }
+  .title7 {
+    font-size: 5rem;
+    margin: 5% 3%;
+  }
+  /* Section 7 ends` */
+
+  /* section 4 */
+  .section4 {
+    margin-top: 0;
+  }
+  .subsection4_1 {
+    flex-direction: column;
+  }
+  .backedData {
+    margin: 10% auto;
+    width: 80%;
+  }
+  .backedBrands {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .backedBrands_Icons {
+    width: 50%;
+    margin: 5% auto;
+  }
+  .trustGroup {
+    width: 100%;
+  }
+  .trustData {
+    padding: auto 5%;
+  }
+  .trustIcon{
+    width: 10%;
+  }
+  .trustText {
+    font-size: 4rem;
+    width: 340vw;
+    line-height: 1em;
+    margin: auto 5% auto;
+  }
+  .section4_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 10%;
+  }
+  .title4 {
+    font-size: 4em;
+  }
+  .title4::after {
+    font-size: 2em;
+  }
+
+  .backedTitle {
+    font-size: 4em;
+  }
+
+  .backedSubTitle {
+    font-size: 4rem;
+  }
+  /* section4 ends */
+
+  /* footer */
+  footer {
+    margin-top: 10%;
+    width: 100%;
+  }
+  .footerMain {
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 110%;
+  margin:0;
+
+  }
+  .footComp {
+    width: 30%;
+    margin: 10% auto;
+  }
+  .footTitle {
+    font-size: 4em;
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+  .footData {
+    font-size: 3em;
+    line-height: 1.5em;
+    width: 95%;
+  }
+
+  .legalData ul {
+    width: max-content;
+  }
+  .footSections {
+    width: 100%;
+    margin: 10% 0;
+  }
+  .followSection {
+    margin-top: 0;
+  }
+  .socialMedia-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .copyrightSection ul {
+    flex-direction: column;
+    margin: 5% auto;
+  }
+
+  .copyrightSection p {
+  
+    margin: 4% auto;
+    align-items: center;
+    font-size: 3em;
+  }
+  
+  /* footer ends */
+
+  /* Pinch Play */
+.PinchPlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  margin: 10% auto;
+}
+.PinchPlay .PinchPlay_1{
+ 
+   width:70%;
+  height:1300px;
+  
+}
+.PinchPlay .YoungIllus{
+  width:50%;
+  margin-left:0;
+  margin-top: -60%;
+}
+
+.PinchPlay_1 .PinchplayTitle{
+  width: 45%;
+}
+
+.PinchPlay .PinchPlay_1 .PinchPlaySubTitle{
+  
+  font-size: 4em;
+}
+.PinchPlay .PinchPlay_1 .PinchPlayLines{
+  margin: 10% auto;
+}
+.PinchPlay .PinchPlay_1 .PinchPlayTagLine{
+ 
+  font-size: 3em;
+}
+/* Pinch Play ends */
+.previous__btn{
+    width: 100px;
+    height: 100px;
+    top: 1200px;
+}
+ .next__btn{
+    width: 100px;
+    height: 100px;
+    top: -980px;
+ }
+}

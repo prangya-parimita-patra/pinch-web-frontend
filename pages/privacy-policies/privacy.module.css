@@ -1,0 +1,41 @@
+
+.textSecondary{
+    color: #0B7BD6;
+}
+.policies{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    flex-direction: column;
+    width: 80%;
+    margin:3rem auto; 
+    color: var(--color-primary);
+}
+.privacyTitle {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+}
+.privacyUpdate{
+    font-family: var(--font-content);
+    width: 100%;
+    text-align: right;
+}
+.privacypara{
+    margin-top:1.2rem;
+    font-family: var(--font-content);
+    font-size:1.2em
+}
+.informationTitle{
+    text-transform: uppercase;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    margin-top:2.3rem;
+}
+
+.policyTitle{
+    margin-top:2.3rem;
+}

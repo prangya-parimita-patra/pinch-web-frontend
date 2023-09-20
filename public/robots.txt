@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /quizDashboard?
+Allow:  
+
+Sitemap: https://pinchapp.in/sitemap.xml
